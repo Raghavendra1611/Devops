@@ -1,0 +1,7 @@
+./script4.sh: line 3: [: -eq: unary operator expected
+(/10) is not a five
+(40/10) is not a five
+40 is not a five
+50 is greater than 40
+50 is greater than 40
+40 is not a five
