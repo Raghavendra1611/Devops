@@ -8,6 +8,6 @@ space=`df -h .|tail -1|awk -F " " '{print $5}'|sed 's/%//g'`
 	echo "The disk storage is almost full, Please take the action|mail -s "Disk m/m full" -c "devops.com" team_devops.com"
 else
 	remaining=$((100 - $space))
-	echo "disk space is still $remaining% you can enjoy "
+	echo "disk space is $remaining% still you have enough space "
 	fi
 
