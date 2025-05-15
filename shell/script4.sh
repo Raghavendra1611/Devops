@@ -1,9 +1,10 @@
 #!/bin/bash
 #set -x
-sleep 30
-if [ $1 -eq 5 ]
+#sleep 30
+read -p "enter a number: " num
+if [ $num -eq 5 ]
 then
-	echo "$1 is five"
+	echo "$num is five"
 else
-	echo "$1 is not a five"
+	echo "$num is not a five"
 fi
